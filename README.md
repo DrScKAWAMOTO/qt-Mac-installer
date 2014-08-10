@@ -43,4 +43,3 @@
 　FullereneViewerInstaller.png をダブルクリックしてプレビューアプリを起動し、メニューの [編集] - [コピー] を選択する。
 　FullereneViewer.dmg を選択し、Command-I を押す。
 　一番上にあるアイコンをクリックし、Command-V を押すと、アイコンが変化する。
- 
