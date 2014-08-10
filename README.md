@@ -14,10 +14,12 @@
 　FullereneViewer-1.2 フォルダのタイトルバーをクリックし、Command-J を押す。  
 　背景：のピクチャを選択し、Background フォルダにコピーした background.png をドラッグする。  
 　ターミナルアプリを起動し、以下を入力する。
+
     mars:kawamoto> SetFile -a V /Volumes/FullereneViewer-1.2/Background
 
 ## 4) FullereneViewer アプリとアプリケーションフォルダの作成
 　FullereneViewer アプリをデプロイする。  
+
     mars:kawamoto> cd src/Qt/FullereneViewer/src/build-FullereneViewer-Desktop_Qt_5_3_clang_64bit-Release
     mars:build-....> ~/Qt5.3.1/5.3/clang_64/bin/macdeployqt FullereneViewer.app
     ERROR: no file at "/opt/local/lib/mysql55/lib/libmysqlclient.18.dylib"
