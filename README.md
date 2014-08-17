@@ -5,17 +5,17 @@
 ## 2) ディスクイメージ作成
 　アプリケーションフォルダの中のユーティリティを開き、中のディスクユーティリティ.app を起動する。  
 　新規イメージをタップする。  
-　一番上の名前を「FullereneViewer-1.2.dmg」に、上から４番目の名前を「FullereneViewer-1.2」に、パーティションを「単一パーティション - Apple パーティションマップ」に変更し、「作成」ボタンを押す。
+　一番上の名前を「FullereneViewer-1.3.dmg」に、上から４番目の名前を「FullereneViewer-1.3」に、パーティションを「単一パーティション - Apple パーティションマップ」に変更し、「作成」ボタンを押す。
 
 ## 3) 背景画像の作成
 　ドライブアイコンをクリックする。  
-　FullereneViewer-1.2 フォルダの中に Background フォルダを作成する。  
+　FullereneViewer-1.3 フォルダの中に Background フォルダを作成する。  
 　Background フォルダの中に background.png をコピーする。  
-　FullereneViewer-1.2 フォルダのタイトルバーをクリックし、Command-J を押す。  
+　FullereneViewer-1.3 フォルダのタイトルバーをクリックし、Command-J を押す。  
 　背景：のピクチャを選択し、Background フォルダにコピーした background.png をドラッグする。  
 　ターミナルアプリを起動し、以下を入力する。
 
-    mars:kawamoto> SetFile -a V /Volumes/FullereneViewer-1.2/Background
+    mars:kawamoto> SetFile -a V /Volumes/FullereneViewer-1.3/Background
 
 ## 4) FullereneViewer アプリとアプリケーションフォルダの作成
 　FullereneViewer アプリをデプロイする。  
@@ -25,19 +25,19 @@
     ERROR: no file at "/opt/local/lib/mysql55/lib/libmysqlclient.18.dylib"
 
 　上記エラーが発生するが気にしない。  
-　上記でデプロイした FullereneViewer.app をファインダーを使って FullereneViewer-1.2 フォルダにドラッグしてコピーする。  
+　上記でデプロイした FullereneViewer.app をファインダーを使って FullereneViewer-1.3 フォルダにドラッグしてコピーする。  
 　ファインダーで mars デバイスを開き、Macintosh HD の中のアプリケーションを選択する。  
 　メニューの [ファイル] - [エイリアスを作成] を選択する。  
-　できあがった「アプリケーション のエイリアス」をファインダーを使って FullereneViewer-1.2 フォルダにドラッグしてコピーする。名前は「アプリケーション」に変更しておく。  
-　FullereneViewer-1.2 フォルダのタイトルバーをクリックし、Command-J を押す。  
+　できあがった「アプリケーション のエイリアス」をファインダーを使って FullereneViewer-1.3 フォルダにドラッグしてコピーする。名前は「アプリケーション」に変更しておく。  
+　FullereneViewer-1.3 フォルダのタイトルバーをクリックし、Command-J を押す。  
 　アイコンサイズを 100x100 に変更する。  
 　アイコンの位置やフォルダの大きさを変更して見た目を整える。  
-　FullereneViewer-1.2 フォルダを閉じる。
+　FullereneViewer-1.3 フォルダを閉じる。
 
 ## 5) ディスクイメージの変換
-　ディスクユーティリティに戻って、FullereneViewer-1.2 を選択する。  
+　ディスクユーティリティに戻って、FullereneViewer-1.3 を選択する。  
 　「マウント解除」ボタンを押す。  
-　FullereneViewer-1.2.dmg を選択し、「変換」ボタンを押す。  
+　FullereneViewer-1.3.dmg を選択し、「変換」ボタンを押す。  
 　「保存」ボタンを押す。  
 　「置き換え」ボタンを押す。
 
