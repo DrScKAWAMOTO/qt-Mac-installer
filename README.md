@@ -42,6 +42,6 @@
 　「置き換え」ボタンを押す。
 
 ## 6) FullereneViewer-1.3.dmg ファイルのアイコン設定
-　FullereneViewerInstaller.png をダブルクリックしてプレビューアプリを起動し、メニューの [編集] - [コピー] を選択する。  
+　FullereneViewerInstallerDmg.png をダブルクリックしてプレビューアプリを起動し、メニューの [編集] - [コピー] を選択する。  
 　FullereneViewer-1.3.dmg を選択し、Command-I を押す。  
 　一番上にあるアイコンをクリックし、Command-V を押すと、アイコンが変化する。
